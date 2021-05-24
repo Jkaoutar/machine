@@ -1,0 +1,48 @@
+body{
+    background-color: #E8EBEF;
+    padding: 50px;
+}
+.container{
+    background-color:white;
+}
+.add{
+    background-color:#00416A ; 
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 20px;
+    
+
+}
+.thead{
+    background-color: #DFF0F7;
+    color: #356FB6;
+}
+.fa-trash-alt{
+    color:red;
+}
+.addNew{
+   
+    
+        position : absolute;
+        top : 50%;
+        left : 50%;
+        transform : translate(-50%,-50%);
+        z-index: 1;
+        width : 500px;
+        height: auto;
+        background: white;
+        border-radius: 3px;
+        box-shadow: 0 2px 12px 0 rgba(0,0,0,.4);
+        z-index: 2;      
+}
+#overlay {
+    position: fixed;
+    opacity: 150%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(10, 0, 0, .7);
+    pointer-events: none;
+    z-index: 1;
+    }
