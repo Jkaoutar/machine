@@ -1,5 +1,5 @@
 <?php require_once "Controller/action.php";
-include_once("vue/head.php");
+include_once("vue/layouts/head.php");
 ?>
 
 <h4 id="h4">Machine capacity settings: </h4>
@@ -11,7 +11,7 @@ include_once("vue/head.php");
     </div>
     <div class="col-md-3">
         <div class="input-group mb-3">
-            <?php include("vue/search.php");?>
+            <?php include("vue/layouts/search.php");?>
         </div>
     </div>
 </div>
@@ -34,10 +34,10 @@ include_once("vue/head.php");
                 <tr class="thead">
                     <th scope="col">Machine#</th>
                     <th scope="col">
-                        <?php include("vue/searchMachine.php");?>
+                        <?php include("vue/layouts/searchMachine.php");?>
                     </th>
                     <th scope="col">
-                        <?php include("vue/searchPlant.php");?>
+                        <?php include("vue/layouts/searchPlant.php");?>
                     </th>
                     <th scope="col">status</th>
                     <th>action</th>
@@ -75,7 +75,7 @@ include_once("vue/head.php");
             </div>
         </div>
         <h4 id="h4">Add new Machine: </h4>
-        <?php include_once("vue/create.php")?>
+        <?php include_once("vue/layouts/create.php")?>
     </div>
 </div>
 </div>
