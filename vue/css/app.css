@@ -45,4 +45,30 @@ body{
     background-color: rgba(10, 0, 0, .7);
     pointer-events: none;
     z-index: 1;
-    }
+}
+#popup{
+    padding:15px;
+}
+.close{
+    margin-top: 10px;
+    font-size: 12px;
+    background-color: #ADD8E6;
+}
+#h4{
+    color:grey;
+    font-size: 16px;
+}
+.search{
+    font-size: 12px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 120%;
+}
+#button-addon2{
+    font-size: 12px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    z-index: 0;
+    
+}
